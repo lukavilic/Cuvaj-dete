@@ -13,3 +13,7 @@ body {
   padding-top: 120px;
   background-color: rgb(240, 240, 240);
 }
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
