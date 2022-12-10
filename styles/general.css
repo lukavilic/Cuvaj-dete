@@ -4,14 +4,16 @@ p {
 }
 body {
   display: flex;
-  min-height: 100vh;
+  min-height: 80vh;
   position: relative;
   flex-direction: column;
+  justify-content: space-between;
   margin: 0;
   padding-top: 120px;
+  padding-bottom: 200px;
   background-color: rgb(240, 240, 240);
 }
 a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: inherit; /* no underline */
+  color: inherit;
+  text-decoration: inherit;
 }

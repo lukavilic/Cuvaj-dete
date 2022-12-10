@@ -9,7 +9,6 @@
   justify-content: center;
   padding: 30px;
   width: 800px;
-  margin-bottom: 200px;
   min-width: 400px;
 }
 .info-title {
@@ -78,7 +77,6 @@
   width: 800px;
   padding: 20px;
   transition-duration: 0.5s;
-  margin-bottom: 5px;
 }
 details[open] > summary:before {
   transform: rotate(90deg);
@@ -106,13 +104,36 @@ details > *:not(summary) {
   min-width: 400px;
   min-height: 500px;
   max-width: 900px;
-  max-height: 1400px;
+  height: 750px;
   margin-right: 100px;
   margin-left: 100px;
+  padding: 20px;
+  position: relative;
 }
 .staff-people {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 95%;
+  flex: 1;
+  margin: 5px;
+  padding: 20px;
+}
+.staff-person {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  flex: 1;
+  width: 50%;
+  margin: 5px;
+  background-color: rgb(200, 200, 200);
+  border-radius: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+.staff-person:hover {
+  background-color: rgb(210, 210, 210);
 }
