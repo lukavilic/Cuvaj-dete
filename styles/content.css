@@ -1,6 +1,16 @@
+.page-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 30px;
+  width: 800px;
   margin-bottom: 200px;
+  min-width: 400px;
 }
 .info-title {
   font-size: 25px;

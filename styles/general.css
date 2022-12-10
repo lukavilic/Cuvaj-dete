@@ -8,8 +8,6 @@ body {
   position: relative;
   flex-direction: column;
   margin: 0;
-  padding-left: 450px;
-  padding-right: 450px;
   padding-top: 120px;
   background-color: rgb(240, 240, 240);
 }
