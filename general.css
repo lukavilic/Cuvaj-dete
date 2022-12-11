@@ -11,37 +11,7 @@ p {
     padding-top: 120px;
     background-color: rgb(240, 240, 240);
   }
-
-  .post{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 20px;
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
   }
-
-  .name_wrap{
-    margin-left: 35%;
-  }
-
-  .post_name{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:150%;
-    font-weight: 600;
-  }
-
-  .post_likes{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 120%;
-  }
-  
-  hr{
-    height:2px;
-    margin-top:20px;
-    margin-bottom:20px;
-    background-color: #989898;
-    border: none;
-    margin-left:30%;
-  }
-
-
-
