@@ -1,72 +1,77 @@
-
-
-body{
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.register_box{
-    display:flex;
-    justify-content: center;
-    width:40%;
-    
-    
- 
-    /* margin: auto; */
-    height:80%;
-    /* border-radius: 25px; */
-    background-color: white;
-    min-width: 450px;
-    max-height: 900px;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-.register_box{
-    margin-top: 20px;
-    
+.register_box {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+
+  /* margin: auto; */
+  height: 80%;
+  /* border-radius: 25px; */
+  background-color: white;
+  min-width: 450px;
+  max-height: 900px;
 }
 
-.input{
-    margin:30px;
-    font-size: 140%;
-    font-family: Poppins;
+.register_box {
+  margin-top: 20px;
 }
 
-input[type=text], input[type=password]{
-    width: 400px;
-    height:40px;
-    /* border-radius: 20px; */
+.input {
+  margin: 30px;
+  font-size: 140%;
+  font-family: Poppins;
 }
 
-input[type=submit]{
-    width:120px;
-    height:40px;
-    border-radius: 20px;
-    border: none;
-    background-color: #008100;
-    color:white;
-    font-size:150%;
+input[type="text"],
+input[type="password"] {
+  width: 400px;
+  height: 40px;
+  /* border-radius: 20px; */
 }
 
-h1{
-    /* margin-top: 30px; */
-    font-family: Poppins;
-    margin-bottom:70px;
+input[type="submit"] {
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  background-color: #3ec75d;
+  color: white;
+  font-size: 150%;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
 }
 
-.slika1{
-    display:flex;
-    justify-content: center;
-    width:40%;
-    margin-left:0px;
-    /* margin: auto; */
-    height:80%;
-    /* border-radius: 25px; */
-    background-color: white;
-    min-width: 450px;
-    max-height: 900px;
+input[type="submit"]:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+h1 {
+  /* margin-top: 30px; */
+  font-family: Poppins;
+  margin-bottom: 70px;
+}
 
-
+.slika1 {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin-left: 0px;
+  /* margin: auto; */
+  height: 80%;
+  /* border-radius: 25px; */
+  background-color: white;
+  min-width: 450px;
+  max-height: 900px;
+}
